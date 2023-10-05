@@ -167,6 +167,15 @@ ul.footer-list select {
   }
 }
 
+.pesada {
+  border: 1px solid black;
+  width: 250px;
+  height: 250px;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
 .its-friday {
   background-color: #ff4136;
 }

@@ -9,6 +9,7 @@ import {
 } from '../helpers/constants'
 import Time from '../helpers/time'
 import Widget from '../component/widget'
+import Image from 'next/image'
 
 interface IPage {
   tz: string
@@ -33,6 +34,15 @@ const Page: React.FC<IPage> = ({ tz, now: initialNow, initialReason }) => {
         <meta property="og:image" content={`${getBaseUrl()}/api/og`} />
         <title>Devo dar Deploy hoje?</title>
       </Head>
+      {!shouldIDeploy(now) && (
+        <Image
+          className="pesada"
+          src="/pesada.png"
+          alt="pesada"
+          width={500}
+          height={500}
+        />
+      )}
       <div className={`wrapper ${!shouldIDeploy(now) && 'its-friday'}`}>
         <Widget reason={initialReason} now={now} />
       </div>
