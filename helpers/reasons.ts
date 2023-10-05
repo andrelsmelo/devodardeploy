@@ -13,11 +13,18 @@ export const REASONS_TO_DEPLOY = [
   'Só vai',
   'Vai dar tudo certo',
   'Confia!',
-  'Tá comigo tá com Deus!'
+  'Tá comigo tá com Deus!',
+  'Vitão testou, tá tranquilo'
 ]
 
 export const REASONS_TO_NOT_DEPLOY = [
   'Evandro ta por ai???',
+  'Será que o Evandro quer ficar até mais tarde',
+  'O Botão de Deploy Está De Férias',
+  'Quer ir de carona com o Vertão?',
+  '🖨️🖨️🖨️🖨️🖨️🖨️',
+  'Será que é urgente mesmo?',
+  'Não queremos que o Murilo nos ligue logo cedo',
   'Era provavelmente o que o Jooj faria',
   'Será que o Luiz vai notar se subir hoje mesmo?',
   'Eu não faria isso se fosse você...',
@@ -26,7 +33,6 @@ export const REASONS_TO_NOT_DEPLOY = [
   'Tá maluco???',
   '🤣🤡🤣🤡🤣🤡🤣',
   'Nops',
-  'O quão desesperado você está?',
   'Por qual motivo você faria isso? 🥺',
   'Vitão testou essa parada ai?'
 ]
@@ -49,9 +55,8 @@ export const REASONS_FOR_FRIDAY_AFTERNOON = [
   'Nem f$#@$@$@!!!',
   'Ficou doido?',
   'Nãaaaaaaaaaaaaaaaaaaaaaaaaaaaaaao',
-  'Quer trabalhar no final de semana??',
+  'Logo hoje cê quer ficar até mais tarde?',
   '🔥 🚒 🚨 ⛔️ 🔥 🚒 🚨 ⛔️ 🔥 🚒 🚨 ⛔️',
-  'Nem a pau, Juvenal',
   'Por qual motivo, razão ou circunstância você faria uma coisa dessas?',
   'Deixe pra segunda e ganhe cinco dias no prazo final 💹',
   'Hein??????',
