@@ -1,4 +1,3 @@
-import React from 'react'
 import names from '../helpers/timezones'
 
 interface ITimezone {

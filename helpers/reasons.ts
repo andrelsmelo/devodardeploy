@@ -1,118 +1,118 @@
 export const REASONS_TO_DEPLOY = [
-  "I don't see why not",
-  "It's a free country",
-  'Go ahead my friend!',
-  'Go for it',
-  'Go go go go!',
-  "Let's do it!",
-  'Ship it! 🚢',
-  'Go with the flow 🌊',
-  'Harder better faster stronger',
-  'Rock on!',
-  'Make me proud',
-  'Break a leg!',
-  'This Is the Way',
-  'Strike First, Strike Hard, No Mercy!'
+  'Não vejo problema algum...',
+  'É um país livre...',
+  'Vai na fé',
+  'Não subiu ainda por qual motivo?',
+  'Boooooora',
+  'A hora é agora!!',
+  'Tá esperando o quê?',
+  'Preparar, apontar, fogo!!! 🚀',
+  'Aperta o play!',
+  'Me deixe orgulhoso!',
+  'É disso que eu tô falando!',
+  'Só vai',
+  'Vai dar tudo certo',
+  'Confia!',
+  'Tá comigo tá com Deus!'
 ]
 
 export const REASONS_TO_NOT_DEPLOY = [
-  "I wouldn't recommend it",
-  "No, it's Friday",
-  'What about Monday?',
-  'Not today',
-  'Nope',
-  'Why?',
-  'Did the tests pass? Probably not',
-  '¯\\_(ツ)_/¯',
-  '😹',
-  'No',
-  'No. Breathe and count to 10, start again',
-  "I'd rather have ice-cream 🍦",
-  'How could you? 🥺',
-  'Some people just want to watch the world burn 🔥',
-  "You like fire don't you?"
+  'Evandro ta por ai???',
+  'Era provavelmente o que o Jooj faria',
+  'Será que o Luiz vai notar se subir hoje mesmo?',
+  'Eu não faria isso se fosse você...',
+  'Nem a pau',
+  'Por quê????',
+  'Tá maluco???',
+  '🤣🤡🤣🤡🤣🤡🤣',
+  'Nops',
+  'O quão desesperado você está?',
+  'Por qual motivo você faria isso? 🥺',
+  'Vitão testou essa parada ai?'
 ]
 
 export const REASONS_FOR_THURSDAY_AFTERNOON = [
-  'You still want to sleep?',
-  'Call your partner!',
-  'Gonna stay late today?',
-  'Tell your boss that you found a bug and go home',
-  'What about Monday?',
-  "I wouldn't recommend it",
-  'Not today',
-  'Nope',
-  'No. Breathe and count to 10, start again'
+  ...REASONS_TO_NOT_DEPLOY,
+  'Quer ficar acordado até tarde?',
+  'Pretende dormir essa noite?',
+  'Pede para o seu colega fazer no seu lugar',
+  'Fala pro Evandro que encontrou um bug e vaza daí o quanto antes',
+  'Que tal Segunda-Feira?',
+  'Não tem necessidade disso',
+  'Melhor não',
+  'Não',
+  'Péssima ideia'
 ]
 
 export const REASONS_FOR_FRIDAY_AFTERNOON = [
-  'Not by any chance',
-  'U mad?',
-  'What you are thinking?',
-  'No no no no no no no no',
-  'How do you feel about working nights and weekends?',
+  'EVANDROOOOOOO',
+  'Nem f$#@$@$@!!!',
+  'Ficou doido?',
+  'Nãaaaaaaaaaaaaaaaaaaaaaaaaaaaaaao',
+  'Quer trabalhar no final de semana??',
   '🔥 🚒 🚨 ⛔️ 🔥 🚒 🚨 ⛔️ 🔥 🚒 🚨 ⛔️',
-  'No! God! Please! No',
-  'No no no no no no no!',
-  'Keep dreaming darling',
-  'Why why Bro why?',
-  'But but but... why?',
-  'Deploys are for Monday, so you can fix them till Friday.',
-  'YOLO ! You only live once !'
+  'Nem a pau, Juvenal',
+  'Por qual motivo, razão ou circunstância você faria uma coisa dessas?',
+  'Deixe pra segunda e ganhe cinco dias no prazo final 💹',
+  'Hein??????',
+  'Mas..... por quê?',
+  'Só se vive uma vez 🤷‍♂️'
 ]
 
 export const REASONS_FOR_FRIDAY_13TH = [
-  "Man, really? It's friday the 13th!",
-  'Do you believe in bad luck?',
-  'Jason is watching you',
-  'If you want to spend your weekend in Crystal Lake, go ahead',
-  'To pray is no help if you take this bad decision',
-  'Did you look at the calendar today?',
-  '📅 Friday the 13th. What do you think about it?',
-  'Just no!',
-  'But but but... why?'
+  'Sério?? Quer fazer isso numa sexta-feira 13?',
+  'Você acredita em má sorte?',
+  'Jason está de olho',
+  'Se quiser passar o final de semana no acampamento Crystal Lake, vai em frente',
+  'Já rezou antes?',
+  'Acredita em Deus?',
+  'Já verificou que dia é hoje?',
+  '📅 Sexta-feira 13. Leia novamente',
+  'Sete anos de azar pra quem fizer deploy hoje',
+  'Abortar missão'
 ]
 
 export const REASONS_FOR_AFTERNOON = [
-  'You still want to sleep?',
-  'Call your partner!',
-  'Gonna stay late today?',
-  'Tomorrow?',
-  'No',
-  'Tell your boss that you found a bug and go home',
-  'You have full day ahead of you tomorrow!',
-  "Trust me, they will be much happier if it wasn't broken for a night",
-  'How much do you trust your logging tools?'
+  'Pretende dormir hoje?',
+  'Vai virar a noite corrigindo erro?',
+  'Amanhã, que tal?',
+  'Não',
+  'Pede para o seu colega fazer no seu lugar',
+  'Fala pro seu chefe que encontrou um bug e vaza daí o quanto antes',
+  'Amanhã você vai ter o dia todo pra corrigir caso algo dê errado',
+  'Todo mundo vai ficar mais feliz se nada estiver quebrado durante a noite',
+  'O quanto você confia nos logs?'
 ]
 
 export const REASONS_FOR_WEEKEND = [
-  "Go home, you're drunk",
-  'How about Monday?',
-  'Beer?',
-  'Drunk development is not a good idea!',
-  'I see you deployed on Friday',
-  'Told you that Monday would be a better idea!'
+  'Vai pra casa, você tá bêbado.',
+  'Que tal Segunda-Feira hein?',
+  'Bora tomar uma?',
+  'Programar bêbado não é uma boa ideia...',
+  'Não seguiu meu conselho e implantou na sexta né?',
+  'Eu te avisei que seria melhor ter deixado pra segunda...'
 ]
 
 export const REASONS_FOR_DAY_BEFORE_CHRISTMAS = [
-  'Are you Santa 🧑‍🎄 or what?',
-  '🎶🎵 You better watch out 🎵🎶',
-  '🎄 Enjoy the holiday season! 🎄 ',
-  'Just take another glass of eggnog',
-  "Can't you just wait after present unwrapping?",
-  'Sure, deploy... \n your family will appreciate you fixing things on your phone during dinner'
+  'Você é o papai noel por acaso? 🧑‍🎄',
+  '🎶🎵 Dingle bells, Dingle bells, não faz isso não 🎵🎶',
+  '🎄 Deixa quieto e aproveita o seu feriado com a família! 🎄 ',
+  'Aceita un pedaço de panetone?',
+  'Não dá pra esperar até abrir os presentes pelo menos?',
+  'Claro, vai em frente... \n sua família vai adorar seu telefone tocando e você corrigindo bugs durante a ceia, vai dormir no sofá!'
 ]
 
 export const REASONS_FOR_CHRISTMAS = [
   ...REASONS_FOR_DAY_BEFORE_CHRISTMAS,
-  'No, Rudolf will hunt you down 🦌 ',
-  'Just watch Home Alone today',
-  "Shouldn't you be preparing a christmas diner?"
+  'Não, Rudolf vai te perseguir em seus sonhos se fizer isso 🦌 ',
+  'Liga na sessão da tarde que vai passar "Esqueceram de Mim", um clássico!',
+  'Você não deveria estar preparando a ceia de Natal?'
 ]
 
 export const REASONS_NEW_YEAR = [
-  'Happy New Year! \n deploy the 2nd of january',
-  "Aren't you hungover?",
-  'Take another glass of champagne 🥂',
-  'Celebrate today, deploy tomorrow 🎇'
+  'Feliz Ano Novo! \n deixa pra implantar dia 2 de janeiro hehe',
+  'Você não está de ressaca?',
+  'Toma aqui outra taça de champanhe 🥂',
+  'Hoje é dia de festa, amanhã é dia de implantação 🎇',
+  'Vai assistir o show do Roberto Carlos e deixa isso pra lá!'
 ]

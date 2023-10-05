@@ -9,8 +9,6 @@ import {
 } from '../helpers/constants'
 import Time from '../helpers/time'
 import Widget from '../component/widget'
-import Footer from '../component/footer'
-import Router from 'next/router'
 
 interface IPage {
   tz: string
@@ -19,23 +17,9 @@ interface IPage {
 }
 
 const Page: React.FC<IPage> = ({ tz, now: initialNow, initialReason }) => {
-  const [timezone, setTimezone] = useState<string>(tz)
   const [now, setNow] = useState<any>(
     new Time(initialNow.timezone, initialNow.customDate)
   )
-
-  const changeTimezone = (newTimezone: string) => {
-    if (!Time.zoneExists(newTimezone)) {
-      return
-    }
-
-    let newUrl = new URL(window.location.toString())
-    newUrl.searchParams.set('tz', newTimezone)
-    Router.push(newUrl.pathname + newUrl.search)
-
-    setTimezone(newTimezone)
-    setNow(new Time(newTimezone))
-  }
 
   return (
     <>
@@ -47,13 +31,10 @@ const Page: React.FC<IPage> = ({ tz, now: initialNow, initialReason }) => {
           sizes="32x32"
         />
         <meta property="og:image" content={`${getBaseUrl()}/api/og`} />
-        <title>Should I Deploy Today?</title>
+        <title>Devo dar Deploy hoje?</title>
       </Head>
       <div className={`wrapper ${!shouldIDeploy(now) && 'its-friday'}`}>
         <Widget reason={initialReason} now={now} />
-        <div className="meta">
-          <Footer timezone={timezone} changeTimezone={changeTimezone} />
-        </div>
       </div>
     </>
   )
