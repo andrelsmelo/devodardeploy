@@ -51,17 +51,17 @@ export const REASONS_FOR_THURSDAY_AFTERNOON = [
 ]
 
 export const REASONS_FOR_FRIDAY_AFTERNOON = [
+  ...REASONS_TO_NOT_DEPLOY,
   'EVANDROOOOOOO',
   'Nem f$#@$@$@!!!',
-  'Ficou doido?',
+  'KKKKKKKKKKKKKKKKKKKKK',
   'Nãaaaaaaaaaaaaaaaaaaaaaaaaaaaaaao',
   'Logo hoje cê quer ficar até mais tarde?',
   '🔥 🚒 🚨 ⛔️ 🔥 🚒 🚨 ⛔️ 🔥 🚒 🚨 ⛔️',
-  'Por qual motivo, razão ou circunstância você faria uma coisa dessas?',
+  '?¿?¿¿?¿????¿',
   'Deixe pra segunda e ganhe cinco dias no prazo final 💹',
   'Hein??????',
-  'Mas..... por quê?',
-  'Só se vive uma vez 🤷‍♂️'
+  'Mas..... por quê?'
 ]
 
 export const REASONS_FOR_FRIDAY_13TH = [
