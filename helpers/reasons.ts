@@ -19,7 +19,7 @@ export const REASONS_TO_DEPLOY = [
 
 export const REASONS_TO_NOT_DEPLOY = [
   'Evandro ta por ai???',
-  'Será que o Evandro quer ficar até mais tarde',
+  'Será que o Evandro quer ficar até mais tarde?',
   'O Botão de Deploy Está De Férias',
   'Quer ir de carona com o Vertão?',
   '🖨️🖨️🖨️🖨️🖨️🖨️',
